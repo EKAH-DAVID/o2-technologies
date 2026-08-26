@@ -9,6 +9,6 @@ export default defineConfig({
     tailwindcss()
   ],
   //  base: process.env.VITE_BASE_PATH || "/my-react-app",
-  base:"/o2-technologies",
+  base:"/o2-technologies/",
 });
 
