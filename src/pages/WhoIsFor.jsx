@@ -3,13 +3,13 @@ const cards = [
     tag: "HOME & FAMILY",
     title: "FAMILIES",
     body: "House fires, gas leaks, and carbon monoxide exposure are household realities. The TEB stays in the kitchen drawer, the bedside table, or the car — wherever your family is.",
-    image: "/img.png"
+    image: "https://images.pexels.com/photos/32058717/pexels-photo-32058717.jpeg"
   },
   {
     tag: "OUTDOORS",
     title: "OUTDOOR & HIKERS",
     body: "Wildfires, mine shafts, avalanche debris fields — remote environments create remote risks. The TEB weighs under 300g and fits in any pack.",
-    image: "https://images.unsplash.com/photo-1609205807107-3b4ac4d2bd5e?w=800&q=80",
+    image: "https://images.pexels.com/photos/3488486/pexels-photo-3488486.jpeg",
   },
   {
     tag: "INSTITUTIONAL",
@@ -21,7 +21,7 @@ const cards = [
     tag: "PREPAREDNESS",
     title: "FIRST AID & GO-BAGS",
     body: "Preppers, emergency responders, and anyone serious about their kit knows the gap. The TEB is what that gap looks like when it's filled properly.",
-    image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    image: "https://images.pexels.com/photos/249348/pexels-photo-249348.jpeg",
   },
 ];
 

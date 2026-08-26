@@ -1,11 +1,20 @@
 import { useState } from "react";
 
-const thumbnails = [
-  "/images/teb-1.jpg",
-  "/images/teb-2.jpg",
-  "/images/teb-3.jpg",
-  "/images/teb-4.jpg",
-];
+import teb1 from "../assets/audience-gobag.png";
+import teb2 from "../assets/product-outdoor.png";
+import teb3 from "../assets/lifestyle-group.png";
+import heroBg from "../assets/hero-bg.png";
+
+const thumbnails = [teb1, teb2, teb3, heroBg];
+
+
+
+// const thumbnails = [
+//   "/images/teb-1.jpg",
+//   "/images/teb-2.jpg",
+//   "/images/teb-3.jpg",
+//   "/assets/hero-bg.png"
+// ];
 
 const included = [
   "1× TEB device (reusable body)",
@@ -89,7 +98,7 @@ export default function ProductBuy() {
                 className="text-5xl font-extrabold text-[#0d1410]"
                 style={{ fontFamily: "Georgia, serif" }}
               >
-                149
+                50
               </span>
             </div>
             <p className="text-[#0d1410]/40 text-xs leading-snug">
@@ -136,7 +145,7 @@ export default function ProductBuy() {
 
             {/* Add to Cart */}
             <button className="w-full bg-green-600 hover:bg-green-700 active:bg-green-800 transition-colors text-white font-bold text-sm tracking-widest uppercase py-4 rounded-xl">
-              ADD TO CART — CA${(149 * qty).toLocaleString()}
+              ADD TO CART — CA${(50 * qty).toLocaleString()}
             </button>
           </div>
 
